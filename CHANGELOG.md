@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2025-01-13)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`d24969e`](https://github.com/stdlib-js/stdlib/commit/d24969e35be1cfbff2e0d62d740c451e476ee444) - **chore:** update package meta data [(#3303)](https://github.com/stdlib-js/stdlib/pull/3303) _(by stdlib-bot, Athan Reines)_
 -   [`c712a8e`](https://github.com/stdlib-js/stdlib/commit/c712a8ec07db672a01355ddfca2192be25fe85ca) - **feat:** add `array/base/broadcasted-ternary4d` [(#3232)](https://github.com/stdlib-js/stdlib/pull/3232) _(by Vinit Pandit, Athan Reines)_
 
 </details>
