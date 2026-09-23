@@ -1,0 +1,5 @@
+"use strict";var dr=function(t,a){return function(){try{return a||t((a={exports:{}}).exports,a),a.exports}catch(z){throw (a=0, z)}};};var vr=dr(function(xr,ar){
+var B=require('@stdlib/array-base-broadcast-array/dist');function tr(t,a,z){var C,D,E,F,G,H,I,J,K,L,M,N,y,f,s,u,i,e,x,o,m,n,c,j,k,w,S,b,q,A,g,l,O,P,Q,R,T,U,V,W,X,d,r,Y,Z,_,v,$,p,h,rr;if(d=a[3],y=d[3],f=d[2],s=d[1],u=d[0],!(y<=0||f<=0||s<=0||u<=0))for(v=B(t[0],a[0],d),$=v.data,r=v.strides,C=r[3],D=r[2],E=r[1],F=r[0],v=B(t[1],a[1],d),p=v.data,r=v.strides,G=r[3],H=r[2],I=r[1],J=r[0],v=B(t[2],a[2],d),h=v.data,r=v.strides,K=r[3],L=r[2],M=r[1],N=r[0],rr=t[3],j=0,b=0,l=0,o=0;o<u;o++){for(c=0,S=0,g=0,Q=$[j],U=p[b],X=h[l],_=rr[o],x=0;x<s;x++){for(n=0,w=0,A=0,P=Q[c],T=U[S],W=X[g],Z=_[x],e=0;e<f;e++){for(m=0,k=0,q=0,O=P[n],R=T[w],V=W[A],Y=Z[e],i=0;i<y;i++)Y[i]=z(O[m],R[k],V[q]),m+=C,k+=G,q+=K;n+=D,w+=H,A+=L}c+=E,S+=I,g+=M}j+=F,b+=J,l+=N}}ar.exports=tr
+});var ir=vr();module.exports=ir;
+/** @license Apache-2.0 */
+//# sourceMappingURL=index.js.map
